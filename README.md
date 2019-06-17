@@ -57,14 +57,15 @@ LD_PRELOAD=<path to your compiled libmmap_cu.so>
 
 
 ## Usage example (Gunrock)
+Build gunrock by running the folowing commands:
 
 ```
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+cd build
+cmake .. && make -j$(nproc)
 ```
+
+For usage examples refer to the scripts directory.
+For more details refere to https://gunrock.github.io/docs/
 
 ## Contributing
 NOTE: This is an experimental POC and is provided AS IS. Feel free to use/modify. If used, please retain this disclaimer and cite:
