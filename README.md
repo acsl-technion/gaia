@@ -17,6 +17,7 @@ GPU and 800GB Intel NVMe SSD DC P3700 with 2.8GB/s sequential read throughput. W
 
 This repository includes the folowing:
 1. Linux 4.4.115 code with GAIA patches applied. See https://github.com/acsl-technion/gaia_linux for code.
+   Note that you can either downoad the whole code or just pick the patches from GAIA_patches directory.
 2. NVIDIA-UVM driver 384.59 with GAIA patches applied. See https://github.com/acsl-technion/gaia_nvidia for code.  
 3. mmap user space library. See GAIA_libmmap.
 4. Gunrock application example. See https://github.com/acsl-technion/gaia_gunrock for code.
